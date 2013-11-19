@@ -1,0 +1,22 @@
+ table {
+	border: 2px;
+	background-color: black;
+}
+
+.oddline {
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	border: solid;
+	border-color:green;
+	padding: 0px 0px 0px 0px;
+}
+.evenline {
+	background-color: #CCFFFF;
+	border: 1px solid black;
+	padding: 0px 0px 0px 0px;
+}
+.headline {
+	background-color: #FF0000;
+	border: 1px solid black;
+	padding: 0px 0px 0px 0px;
+}
