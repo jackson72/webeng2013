@@ -9,14 +9,19 @@
 	border: solid;
 	border-color:green;
 	padding: 0px 0px 0px 0px;
+	height: 25px;
 }
 .evenline {
 	background-color: #CCFFFF;
 	border: 1px solid black;
 	padding: 0px 0px 0px 0px;
+	height: 25px;
 }
 .headline {
 	background-color: #FF0000;
 	border: 1px solid black;
 	padding: 0px 0px 0px 0px;
+}
+.center {
+	text-align: center;
 }

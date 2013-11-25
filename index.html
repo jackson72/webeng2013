@@ -11,79 +11,88 @@
 	<h1>Hausaufgabe gemacht von Michael Francescato</h1>
 
 	</header>
-	
 	<SCRIPT Language="JavaScript">
 	<!-- 
-	var values = ["bdo", "I", "I18N: Bidi-Eingriff.", " Richtungsänderung bei bidirektionalem Text",
-	         "big", "", "Großschrift.", "",
-	         "blockquote", "B", "Langes Zitat.", " Zitat in Form eines eigenen Textabsatzes",
-	         "body", "I", "Dokumentkörper.", " Inhaltsbereich eines HTML-Dokuments",
-	         "br", "I", "Zeilenumbruch.", " Erzwungener Zeilenumbruch an der betreffenden Stelle",
-	         "button", "I", "Button.", " Schaltfläche in einem Formular",
-	         "caption", "I", "(Tabellen-) Kopfzeile.", " Tabellenüberschrift / -unterschrift",
-	         "cite", "I", "Literaturverweis.", " Zitat innerhalb eines Absatzes",
-	         "code", "I", "Code-Fragment.", " Quelltext-Auszug innerhalb eines Absatzes",
-	         "col", "I", "Spalte.", " Tabellenspalte",
-	         "colgroup", "I", "Spaltengruppe.", " Gruppe von Tabellenspalten",
-	         "dd", "I", "Definitionsbeschreibung.", " Definition, Beschreibung, detaillierter Inhalt zu einem dt-Element",
-	         "del", "B", "Gelöschter Text.", " gelöschter Inhalt (Änderungsmarkierung)",
-	         "dfn", "I", "Instanzdefinition.", " Definition innerhalb eines Absatzes",
-	         "div", "B", "Generischer Container.", " Allgemeiner Bereich",
-	         "dl", "B", "Definitionsliste.", " Liste mit dt- und dd-Elementen, für Definitionslisten, Dialoge usw.",
-	         "dt", "I", "Definitionsbegriff.", " Zu definierender Ausdruck in einer Definitionsliste, Sprechername in einem Dialog usw.",
-	         "em", "I", "Betonung.", " emphatischer Ausdruck innerhalb eines Absatzes (z.B. überspitzte Formulierung)",
-	         "fieldset", "B", "Kontrollelementgruppe.", " Gruppe von Elementen in einem Formular, Reiter in einem Dialog",
-	         "form", "B", "Formular.", " Formular, Dialog",
-	         "h1", "B", "Überschrift.", "Überschrift 1. Ordnung",
-	         "h2", "B", "Überschrift.", "Überschrift 2. Ordnung",
-	         "h3", "B", "Überschrift.", "Überschrift 3. Ordnung",
-	         "h4", "B", "Überschrift.", "Überschrift 4. Ordnung",
-	         "h5", "B", "Überschrift.", "Überschrift 5. Ordnung",
-	         "h6", "B", "Überschrift.", "Überschrift 6. Ordnung",
-	         "head", "I", "Dokumentkopf.", " Kopfbereich eines HTML-Dokuments",
-	         "hr", "B", "Horizontaler Trenner.", " Trennlinie",
-	         "html", "I", "Dokument-Root.", " Dokumentelement von HTML-Dokumenten, schließt das gesamte Dokument ein",
-	         "i", "I", "Kursivschrift.", " spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv dargestellt)",
-	         "img", "I", "Bild.", " Referenzierte und eingebettete Grafik",
-	         "input", "I", "Eingabeelement.", " Formularelement, verwendbar für diverse Typen wie Eingabefelder, Schaltflächen, Auswahlfelder usw.",
-	         "ins", "B", "Eingefügter Text.", " Eingefügter Inhalt (Änderungsmarkierung)",
-	         "kbd", "I", "Einzugebender Text.", " Darstellung eines über Tastatur einzugebenden Textes im Text",
-	         "label", "I", "Formularbeschriftung.", " Beschriftungstext eines Formularfeldes",
-	         "legend", "I", "Beschriftung.", " Überschrift für eine fieldset-Gruppe von Elementen in einem Formular",
-	         "li", "B", "Listenelement.", " Listenpunkt in einer ul-, ol- oder menu-Liste",
-	         "link", "I", "Medienunabhängiger Link.", " Logische Beziehungen der aktuellen Webseite zu anderen Webseiten",
-	         "map", "I", "Clientseitige Image-Map.", " Bereich für verweis-sensitive Grafiken",
-	         "meta", "I", "Generische Metadaten.", " Meta-Angabe für nicht im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an den Webserver",
-	         "noscript", "B", "Fallback-Container.", " Bereich für Inhalte, die angezeigt werden, wenn JavaScript im Browser deaktiviert oder nicht verfügbar ist",
-	         "object", "I", "Generisches Objekt.", " Eingebettetes Objekt, geeignet für spezielle Multimedia-Objekte, Java-Applets usw.",
-	         "ol", "B", "Geordnete Liste.", " Geordnete (z.B. nummerierte) Liste",
-	         "optgroup", "I", "Optionsgruppe.", " Gruppe von Auswahlmöglichkeiten in einer Auswahlliste",
-	         "option", "I", "Auswahlmöglichkeit.", " Auswahlmöglichkeit in einer Auswahlliste",
-	         "p", "B", "Absatz.", " Textabsatz",
-	         "param", "I", "Parameter.", " Parameter eines Objekts bei object-Element",
-	         "pre", "B", "Vorformatierter Text.", " Präformatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)",
-	         "q", "I", "Inline-Zitat.", " Wörtliche Rede in einem Text",
-	         "samp", "I", "Beispielausgabe.", " Beispieltext in einem dokumentierenden Text",
-	         "script", "I", "Script-Anweisungen.", " Scriptbereich für JavaScript und andere Scriptsprachen",
-	         "select", "I", "Optionsauswahl.", " Auswahlliste in einem Formular",
-	         "small", "I", "Kleinschrift (HTML 5: Kleingedrucktes).", " kleiner dargestellter Text als Normalschrift",
-	         "span", "I", "Generischer Container.", " allgemeiner Bereich innerhalb eines Absatzes",
-	         "strong", "I", "Starke Betonung (HTML 5: Wichtigkeit).", " stark betonter Inhalt im Text",
-	         "style", "I", "Gestaltungsanweisungen.", " Bereich für Stylesheet-Definitionen, z.B. in CSS",
-	         "sub", "I", "Subskript.", " Tiefgestellter Text",
-	         "sup", "I", "Hochgestellte Schrift.", " Hochgestellter Text",
-	         "table", "B", "Tabelle.", " Tabelle",
-	         "tbody", "I", "Tabellenkörper.", " Tabellenkörper mit den eigentlichen Daten",
-	         "td", "B", "Tabellenzelle.", " Tabellenzelle",
-	         "textarea", "I", "Mehrzeiliges Textfeld.", " Mehrzeiliger Eingabebereich in einem Formular",
-	         "tfoot", "B", "Tabellenfuß.", " Fußbereich in einer Tabelle, z.B. für summarische Daten",
-	         "th", "B", "Tabellenkopfzelle.", " Tabellenkopfzelle",
-	         "thead", "I", "Tabellenkopf.", " Kopfbereich einer Tabelle",
-	         "title", "I", "Dokumenttitel.", " Titel eines HTML-Dokuments",
-	         "tr", "B", "Tabellenzeile.", " Tabellenzeile",
-	         "tt", "", "»Fernschreiber«-Text.", "",
-	         "ul", "B", "Ungeordnete Liste.", " Unsortierte Liste (Aufzählungsliste)",
-	         "var", "I", "Variableninstanz.", " Variabler Name in einem dokumentierenden Text"];
+	var checkImg = "<a href=\"http://www.123gif.de/haken/\"><img border=\"0\" style=\"border:0;\" src=\"http://www.123gif.de/gifs/haken/haken-0015.gif\" alt=\"haken-0015.gif von 123gif.de\" /></a>"
+	var crossImg = "<a href=\"/dist/img/kreuz.jpg\"> <img widht=\"15\" height=\"15\" border=\"0\" style=\"border:0;\" src=\"dist/img/kreuz.jpg\" /></a>";
+	var clazz = "class=\""+line+"\"";
+	var values = ["a", " Verweis (Hyperlink) und Anker für Verweise", "I", "S",
+	              "abbr", " Abkürzung", "I", "S",
+	              "acronym", "Akronym", "I", "S",
+	              "address", " Kontaktangabe zum Autor eines Inhalts (Credits)", "B", "S",
+	              "area", " Verweis-sensitiver Bereich in einer Image-Map-Grafik", "I", "S",
+	              "b", " Stilistische Hervorhebung im Text (üblicherweise fett dargestellt)", "I", "N",
+	              "base", " Basis-URL für Referenzen", "I", "S",
+	              "bdo", " Richtungsänderung bei bidirektionalem Text", "I", "S",
+	              "big", "Großschrift", "I", "N",
+	              "blockquote", " Zitat in Form eines eigenen Textabsatzes", "B", "S",
+	              "body", " Inhaltsbereich eines HTML-Dokuments", "I", "S",
+	              "br", " Erzwungener Zeilenumbruch an der betreffenden Stelle", "I", "S",
+	              "button", " Schaltfläche in einem Formular", "I", "S",
+	              "caption", " Tabellenüberschrift / -unterschrift", "I", "S",
+	              "cite", " Zitat innerhalb eines Absatzes", "I", "S",
+	              "code", " Quelltext-Auszug innerhalb eines Absatzes", "I", "S",
+	              "col", " Tabellenspalte", "I", "S",
+	              "colgroup", " Gruppe von Tabellenspalten", "I", "S",
+	              "dd", " Definition, Beschreibung, detaillierter Inhalt zu einem dt-Element", "I", "S",
+	              "del", " gelöschter Inhalt (Änderungsmarkierung)", "B", "S",
+	              "dfn", " Definition innerhalb eines Absatzes", "I", "S",
+	              "div", " Allgemeiner Bereich", "B", "N",
+	              "dl", " Liste mit dt- und dd-Elementen, für Definitionslisten, Dialoge usw.", "B", "S",
+	              "dt", " Zu definierender Ausdruck in einer Definitionsliste, Sprechername in einem Dialog usw.", "I", "S",
+	              "em", " emphatischer Ausdruck innerhalb eines Absatzes (z.B. überspitzte Formulierung)", "I", "S",
+	              "fieldset", " Gruppe von Elementen in einem Formular, Reiter in einem Dialog", "B", "S",
+	              "form", " Formular, Dialog", "B", "S",
+	              "h1", "Überschrift 1. Ordnung", "B", "S",
+	              "h2", "Überschrift 2. Ordnung", "B", "S",
+	              "h3", "Überschrift 3. Ordnung", "B", "S",
+	              "h4", "Überschrift 4. Ordnung", "B", "S",
+	              "h5", "Überschrift 5. Ordnung", "B", "S",
+	              "h6", "Überschrift 6. Ordnung", "B", "S",
+	              "head", " Kopfbereich eines HTML-Dokuments", "I", "S",
+	              "hr", " Trennlinie", "B", "S",
+	              "html", " Dokumentelement von HTML-Dokumenten, schließt das gesamte Dokument ein", "I", "S",
+	              "i", " spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv dargestellt)", "I", "N",
+	              "img", " Referenzierte und eingebettete Grafik", "I", "S",
+	              "input", " Formularelement, verwendbar für diverse Typen wie Eingabefelder, Schaltflächen, Auswahlfelder usw.", "I", "S",
+	              "ins", " Eingefügter Inhalt (Änderungsmarkierung)", "B", "S",
+	              "kbd", " Darstellung eines über Tastatur einzugebenden Textes im Text", "I", "N",
+	              "label", " Beschriftungstext eines Formularfeldes", "I", "S",
+	              "legend", " Überschrift für eine fieldset-Gruppe von Elementen in einem Formular", "I", "S",
+	              "li", " Listenpunkt in einer ul-, ol- oder menu-Liste", "B", "S",
+	              "link", " Logische Beziehungen der aktuellen Webseite zu anderen Webseiten", "I", "S",
+	              "map", " Bereich für verweis-sensitive Grafiken", "I", "S",
+	              "meta", " Meta-Angabe für nicht im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an den Webserver", "I", "S",
+	              "noscript", " Bereich für Inhalte, die angezeigt werden, wenn JavaScript im Browser deaktiviert oder nicht verfügbar ist", "B", "S",
+	              "object", " Eingebettetes Objekt, geeignet für spezielle Multimedia-Objekte, Java-Applets usw.", "I", "S",
+	              "ol", " Geordnete (z.B. nummerierte) Liste", "B", "S",
+	              "optgroup", " Gruppe von Auswahlmöglichkeiten in einer Auswahlliste", "I", "S",
+	              "option", " Auswahlmöglichkeit in einer Auswahlliste", "I", "S",
+	              "p", " Textabsatz", "B", "N",
+	              "param", " Parameter eines Objekts bei object-Element", "I", "S",
+	              "pre", " Präformatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)", "B", "N",
+	              "q", " Wörtliche Rede in einem Text", "I", "S",
+	              "samp", " Beispieltext in einem dokumentierenden Text", "I", "S",
+	              "script", " Scriptbereich für JavaScript und andere Scriptsprachen", "I", "S",
+	              "select", " Auswahlliste in einem Formular", "I", "S",
+	              "small", " kleiner dargestellter Text als Normalschrift", "I", "N",
+	              "span", " allgemeiner Bereich innerhalb eines Absatzes", "I", "N",
+	              "strong", " stark betonter Inhalt im Text", "I", "S",
+	              "style", " Bereich für Stylesheet-Definitionen, z.B. in CSS", "I", "S",
+	              "sub", " Tiefgestellter Text", "I", "S",
+	              "sup", " Hochgestellter Text", "I", "S",
+	              "table", " Tabelle", "B", "S",
+	              "tbody", " Tabellenkörper mit den eigentlichen Daten", "I", "S",
+	              "td", " Tabellenzelle", "B", "S",
+	              "textarea", " Mehrzeiliger Eingabebereich in einem Formular", "I", "S",
+	              "tfoot", " Fußbereich in einer Tabelle, z.B. für summarische Daten", "B", "S",
+	              "th", " Tabellenkopfzelle", "B", "S",
+	              "thead", " Kopfbereich einer Tabelle", "I", "S",
+	              "title", " Titel eines HTML-Dokuments", "I", "S",
+	              "tr", " Tabellenzeile", "B", "S",
+	              "tt", "Fernschreiber-Text", "I", "N",
+	              "ul", " Unsortierte Liste (Aufzählungsliste)", "B", "S",
+	              "var", " Variabler Name in einem dokumentierenden Text", "I", "S"];
 
 		document.write('<table>');
 		document.write('<thead>');
@@ -96,15 +105,37 @@
 		document.write('</thead>');
 		document.write('<tbody>');
 		var line = "oddline";
+		var clazz;
 		for (var i = 0; i < values.length; i++) {
-			if (i % 4 === 0) {
+			var mod = i%4;
+			switch(mod) {
+				case 0:
+					clazz = "";
+					values[i] = "&lt;" + values[i] + "&gt;";
+					break;
+				case 1:
+					clazz = "";
+					break;
+				case 2:
+				case 3:
+					clazz = "center";
+					break;
+				default:
+					break;
+			}
+			if (mod === 0) {
 				document.write('<tr class=\"'+line+'\">')
 				if(line==="oddline")
 					line="evenline";
 				else
 					line= "oddline";
 			}
-			document.write('<td>' + values[i] + '</td>');
+			if(values[i] === "S") {
+				values[i] = checkImg;
+			} else if(values[i] === "N"){
+				values[i]= crossImg;	
+			}
+			document.write('<td class=\"'+clazz +'\">' + values[i] + '</td>');
 		}
 		document.write('</td>');
 		document.write('</tbody>');
