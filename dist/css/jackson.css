@@ -28,3 +28,8 @@
 img {
 	height: 15px;
 }
+
+p a img {
+	height: 31px; 
+	width: 88px
+}
