@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -8,10 +8,10 @@
 </head>
 <body>
 	<h1>Hausaufgabe gemacht von Michael Francescato</h1>
-	<SCRIPT Language="JavaScript">
+	<SCRIPT Language="JavaScript" >
 	<!-- 
-	var checkImg = "<a href=\"http://www.123gif.de/haken/\"><img border=\"0\" style=\"border:0;\" src=\"http://www.123gif.de/gifs/haken/haken-0015.gif\" alt=\"haken-0015.gif von 123gif.de\"></img></a>";
-	var crossImg = "<a href=\"/dist/img/kreuz.jpg\"> <img widht=\"15\" height=\"15\" border=\"0\" style=\"border:0;\" src=\"dist/img/kreuz.jpg\" alt=\"Kreuz\"></img></a>";
+	var checkImg = "<a href=\"http://www.123gif.de/haken/\"><img src=\"http://www.123gif.de/gifs/haken/haken-0015.gif\" alt=\"haken-0015.gif von 123gif.de\"/></a>";
+	var crossImg = "<a href=\"/dist/img/kreuz.jpg\"> <img src=\"dist/img/kreuz.jpg\" alt=\"Kreuz\"/></a>";
 	var clazz = "class=\""+line+"\"";
 	var values = ["a", " Verweis (Hyperlink) und Anker für Verweise", "I", "S",
 	              "abbr", " Abkürzung", "I", "S",
@@ -108,7 +108,7 @@
 			switch(mod) {
 				case 0:
 					clazz = "";
-					values[i] = "&lt;" + values[i] + "&gt;";
+					values[i] = "&lt;" + values[i] + "&gt;&lt;/" + values[i] + "&gt;";
 					break;
 				case 1:
 					clazz = "";
