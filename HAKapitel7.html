@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="dist/css/kapital7.css" type="text/css" />
+<link rel="stylesheet" href="dist/css/Kapitel7.css" type="text/css" />
 <title>Willkommen!</title>
 </head>
 <body>
@@ -14,19 +14,19 @@
 				<td>
 					<fieldset >
 						<legend>Artikelsuche</legend>
-						<label>Suchbegriff</label>
-						<input type="text" name="search" value="" />
+						<label for="searchTermArticle">Suchbegriff</label>
+						<input id="searchTermArticle" type="text" name="search" value="" />
 						<label title="Suchbegriff"></label>
-						<input type="submit" name="go" value="Start Artikelsuche" />
+						<input class="button" type="submit" name="go" value="Start Artikelsuche" />
 					</fieldset>
 				</td>
 
 				<td>
 					<fieldset>
-						<legend>Volltext Suche</legend>
-						<label>Suchbegriff</label>
+						<legend for="searchTermFulltext">Volltext Suche</legend>
+						<label id="searchTermFulltext">Suchbegriff</label>
 						<input type="text" name="search" value="" />
-						<input type="submit" name="fulltext" value="Start Volltextsuche" />
+						<input class="button" type="submit" name="fulltext" value="Start Volltextsuche" />
 					</fieldset>
 				</td>
 			</tr>			
