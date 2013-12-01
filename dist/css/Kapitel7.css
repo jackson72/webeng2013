@@ -1,35 +1,8 @@
- table {
-	border: 2px;
-	background-color: black;
+div.inline {
+	float: left
 }
 
-.oddline {
-	background-color: #FFFFFF;
-	border: 1px solid black;
-	border: solid;
-	border-color:green;
-	padding: 0px 0px 0px 0px;
-	height: 25px;
-}
-.evenline {
-	background-color: #CCFFFF;
-	border: 1px solid black;
-	padding: 0px 0px 0px 0px;
-	height: 25px;
-}
-.headline {
-	background-color: #FF0000;
-	border: 1px solid black;
-	padding: 0px 0px 0px 0px;
-}
-.center {
-	text-align: center;
-}
-img {
-	height: 15px;
-}
-
-p a img {
-	height: 31px; 
-	width: 88px
+fieldset {
+	width: 40px;
+	height: 10px;
 }

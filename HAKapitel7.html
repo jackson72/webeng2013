@@ -8,14 +8,31 @@
 </head>
 <body>
 	<h1>Hausaufgabe Kapitel 7</h1>
-	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-		<fieldset>
-			<legend>Suchen</legend>
-			<input type="text" name="search" value="" />
-			<input type="submit" name="go" value="Artikel" />
-			<input type="submit" name="fulltext" value="Volltext" />
-		</fieldset>
-	</form>
+	<form width="100px" action="http://de.wikipedia.org/wiki/Spezial:Suche" >
+		<table>
+			<tr>
+				<td>
+					<fieldset >
+						<legend>Artikelsuche</legend>
+						<label>Suchbegriff</label>
+						<input type="text" name="search" value="" />
+						<label title="Suchbegriff"></label>
+						<input type="submit" name="go" value="Start Artikelsuche" />
+					</fieldset>
+				</td>
+
+				<td>
+					<fieldset>
+						<legend>Volltext Suche</legend>
+						<label>Suchbegriff</label>
+						<input type="text" name="search" value="" />
+						<input type="submit" name="fulltext" value="Start Volltextsuche" />
+					</fieldset>
+				</td>
+			</tr>			
+		</form>
+	</table>
+
 	<p>
 		<a href="http://wave.webaim.org/report#/http://michaelfrancescato2.cloudcontrolled.com/HAKapitel7.html">
 			<img style="border: 0; width: 88px; height: 31px" src="http://www.w3.org/WAI/wcag2AAA.gif" alt="wcag2AAA.gif!" />
