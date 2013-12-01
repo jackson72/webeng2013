@@ -1,0 +1,2 @@
+cctrlapp michaelfrancescato2 push
+cctrlapp michaelfrancescato2 deploy
