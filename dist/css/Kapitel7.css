@@ -2,11 +2,15 @@
 input {
 	display: block;
 	margin: 3px;
-	padding: 5px
+	padding: 5px;
+	background-color: #c6e7de
 }
-td {
+fieldset {
 	padding-right: 10px;
+	display: inline;
+	
 }
 .button {
 	float: right;
+	background-color: #bfbfbf
 }
