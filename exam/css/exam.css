@@ -36,3 +36,9 @@ fieldset {
 .navbar-brand {
 	color: green;
 }
+.w3cicon {
+	height: 31px;
+	width: 88px;
+	float: right;
+	
+}
