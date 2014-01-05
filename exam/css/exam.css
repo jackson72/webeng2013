@@ -1,5 +1,5 @@
-.center {
-	
+h1 {
+	font-size: 28px !important;
 }
 th {
 	background-color: #666666;
@@ -41,4 +41,7 @@ fieldset {
 	width: 88px;
 	float: right;
 	
+}
+#searchTerm {
+	width: 370px;
 }
