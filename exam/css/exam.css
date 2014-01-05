@@ -1,0 +1,38 @@
+.center {
+	
+}
+th {
+	background-color: #666666;
+	color: white;
+	font-size: 18px;
+	font-family: serif;
+}
+td {
+	background-color:#cccccc;
+	font-size: 16px;
+}
+td:nth-child(1){
+	width: 180px;
+} 
+input {
+	display: block;
+	margin: 3px;
+	padding: 5px;
+	
+}
+fieldset {
+	display: inline;	
+	border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+
+	padding-left: 20px;
+	padding-right:20px;
+}
+.button {
+	background-color: #bfbfbf;
+	width: 200px;
+}
+.navbar-brand {
+	color: green;
+}

@@ -139,7 +139,7 @@ figure {
 fieldset {
   padding: 0.35em 0.625em 0.75em;
   margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  border: 5px solid #999999;
 }
 
 legend {
@@ -1637,7 +1637,7 @@ legend {
   line-height: inherit;
   color: #333333;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 2px solid #e1e1e1;
 }
 
 label {

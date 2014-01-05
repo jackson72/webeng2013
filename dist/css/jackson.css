@@ -25,6 +25,9 @@
 .center {
 	text-align: center;
 }
+p {
+	display: inline;
+}
 img {
 	height: 15px;
 }
