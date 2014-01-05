@@ -42,8 +42,6 @@ audio:not([controls]) {
 
 html {
   font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
 body {
@@ -171,7 +169,6 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
 }
 
 button[disabled],
@@ -186,15 +183,7 @@ input[type="radio"] {
 }
 
 input[type="search"] {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
           box-sizing: content-box;
-  -webkit-appearance: textfield;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
 }
 
 button::-moz-focus-inner,
@@ -286,14 +275,11 @@ table {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -333,7 +319,7 @@ a:focus {
 
 a:focus {
   outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto;
   outline-offset: -2px;
 }
 
@@ -360,7 +346,6 @@ img {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
 }
 
@@ -1644,8 +1629,6 @@ label {
 }
 
 input[type="search"] {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
@@ -1669,13 +1652,8 @@ input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
   outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto;
   outline-offset: -2px;
-}
-
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  height: auto;
 }
 
 .form-control:-moz-placeholder {
@@ -1690,9 +1668,6 @@ input[type="number"]::-webkit-inner-spin-button {
   color: #999999;
 }
 
-.form-control::-webkit-input-placeholder {
-  color: #999999;
-}
 
 .form-control {
   display: block;
@@ -1974,15 +1949,13 @@ textarea.input-lg {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
        -o-user-select: none;
 }
 
 .btn:focus {
   outline: thin dotted #333;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto;
   outline-offset: -2px;
 }
 
@@ -2336,7 +2309,6 @@ input[type="button"].btn-block {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition: height 0.35s ease;
           transition: height 0.35s ease;
 }
 
@@ -2351,7 +2323,6 @@ input[type="button"].btn-block {
   top: 1px;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
-  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -4018,7 +3989,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   overflow-x: visible;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  -webkit-overflow-scrolling: touch;
 }
 
 .navbar-collapse:before,
@@ -4901,7 +4871,6 @@ a.list-group-item.active > .badge,
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
 }
 
@@ -5036,7 +5005,6 @@ a.thumbnail:focus {
   text-align: center;
   background-color: #428bca;
           box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
           transition: width 0.6s ease;
 }
 
@@ -5046,8 +5014,6 @@ a.thumbnail:focus {
 }
 
 .progress.active .progress-bar {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-     -moz-animation: progress-bar-stripes 2s linear infinite;
       -ms-animation: progress-bar-stripes 2s linear infinite;
        -o-animation: progress-bar-stripes 2s linear infinite;
           animation: progress-bar-stripes 2s linear infinite;
@@ -5058,9 +5024,6 @@ a.thumbnail:focus {
 }
 
 .progress-striped .progress-bar-success {
-  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
@@ -5432,7 +5395,6 @@ button.close {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
 }
 
 .modal-open {
