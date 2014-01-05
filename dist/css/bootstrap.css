@@ -3254,21 +3254,6 @@ input[type="button"].btn-block {
   outline: 0;
 }
 
-.dropdown-menu > .disabled > a,
-.dropdown-menu > .disabled > a:hover,
-.dropdown-menu > .disabled > a:focus {
-  color: #999999;
-}
-
-.dropdown-menu > .disabled > a:hover,
-.dropdown-menu > .disabled > a:focus {
-  text-decoration: none;
-  cursor: not-allowed;
-  background-color: transparent;
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-
 .open > .dropdown-menu {
   display: block;
 }
@@ -5054,42 +5039,6 @@ a.thumbnail:focus {
   color: #953b39;
 }
 
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
-@-moz-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
-@-o-keyframes progress-bar-stripes {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 40px 0;
-  }
-}
-
-@keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
 .progress {
   height: 20px;
   margin-bottom: 20px;
@@ -5532,15 +5481,7 @@ body.modal-open,
 .modal-open .navbar-fixed-bottom {
   margin-right: 15px;
 }
-@media screen and (min-width: 768px) {
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
-    width: 30px;
-    height: 30px;
-    margin-top: -15px;
-    margin-left: -15px;
-    font-size: 30px;
-  }
+
 .hide {
   display: none !important;
 }
